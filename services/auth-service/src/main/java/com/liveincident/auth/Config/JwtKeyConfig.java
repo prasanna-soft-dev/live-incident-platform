@@ -1,6 +1,7 @@
 package com.liveincident.auth.Config;
 
 import com.liveincident.auth.Util.PemUtil;
+import jakarta.annotation.PostConstruct;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -72,4 +73,6 @@ public class JwtKeyConfig {
             );
         }
     }
+
+
 }

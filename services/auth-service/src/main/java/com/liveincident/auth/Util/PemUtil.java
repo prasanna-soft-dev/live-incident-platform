@@ -1,7 +1,10 @@
 package com.liveincident.auth.Util;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Base64;
 
+@Component
 public class PemUtil {
     private PemUtil() {
 
